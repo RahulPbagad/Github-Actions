@@ -1,10 +1,11 @@
-name : my-workflow
+name: my-workflow
 
-on : push
+on: push
 
 jobs:
   first:
     runs-on: ubuntu-latest
+
     steps:
-    - name: print massage
-      run: echo "hello rahul how are you"
+      - name: Print message
+        run: echo "Hello Rahul, how are you?"

@@ -9,3 +9,7 @@ jobs:
     steps:
       - name: Print message
         run: echo "Hello Rahul, how are you?"
+
+       
+      - name: show content of /etc/passwd
+        run: sudo cat /etc/passwd
